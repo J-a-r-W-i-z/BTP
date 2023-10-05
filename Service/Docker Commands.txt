@@ -1,2 +1,0 @@
-docker build -t image-bw-converter .
-docker run -v "$(pwd)":/app -e INPUT_IMAGE=/app/input_image.jpg -e OUTPUT_IMAGE=/app/output_image.jpg image-bw-converter
